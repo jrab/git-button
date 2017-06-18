@@ -3,7 +3,7 @@
 *Git Button* adds a new copy button to each story in Pivotal Tracker. It copies the following code to the clipboard so that it can be pasted into a terminal.
 
 ```
-git checkout -b feature/name-of-pivotal-issue-147057797
+git checkout development && git pull && git checkout -b feature/name-of-pivotal-issue-147057797
 ```
 
 ![Screenshot of Git Button in Pivotal](http://git-button.joeldare.com/screenshot-640x400.png)
