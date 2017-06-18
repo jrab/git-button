@@ -2,12 +2,12 @@
     "content_scripts": [
         {
             "matches": ["https://www.pivotaltracker.com/*"],
-            "js": ["git-button.js"]
+            "js": ["jquery.min.js", "git-button.js"]
         }
     ],
     "name": "Git Button for Pivotal Tracker",
     "description": "Add a copy button to pivotal for creating new git branches using the current story id.",
-    "homepage_url": "http://git-button.joeldare.com",
+    "homepage_url": "http://cordium.com/",
     "icons": {
         "16": "icon-16.png",
         "48": "icon-48.png",
@@ -16,6 +16,6 @@
     "permissions": [
         "https://www.pivotaltracker.com/*"
     ],
-    "version": "17.1.13",
+    "version": "1.0.0",
     "manifest_version": 2
 }

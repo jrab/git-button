@@ -3,14 +3,10 @@
 *Git Button* adds a new copy button to each story in Pivotal Tracker. It copies the following code to the clipboard so that it can be pasted into a terminal.
 
 ```
-git checkout -b 1234567
+git checkout -b feature/name-of-pivotal-issue-147057797
 ```
 
 ![Screenshot of Git Button in Pivotal](http://git-button.joeldare.com/screenshot-640x400.png)
-
-## Installation
-
-To use the extension free, follow the instructions under *Source Code* below. If you find the extension useful and would like to support the author, please buy the [Git Button extension](https://chrome.google.com/webstore/detail/git-button/nilhelbfenibcdiafbmlpbomelmdegli) from the Chrome Web Store.
 
 ## Source Code
 
@@ -28,7 +24,7 @@ This software is open source, distributed under the MIT license.
 
 ## Author
 
-*Git Button* was created by [Joel Dare](mailto:joel@joeldare.com).
+*Git Button* was originally created by [Joel Dare](mailto:joel@joeldare.com) and modified by Cordium
 
 ## To-Do
 
